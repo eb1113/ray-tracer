@@ -1,41 +1,47 @@
-# Prerequisites
-*.d
+# Ignore everything by default
+*
 
-# Compiled Object files
-*.slo
-*.lo
+# Allow source directory
+!src/
+!src/**
+
+# (Optional) Allow top-level documentation or build files
+!README.md
+!CMakeLists.txt
+!Makefile
+
+# -------------------------
+# Build & compiler outputs
+# -------------------------
+*.d
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.slo
+*.lo
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
 *.app
 
-# debug information files
+# -------------------------
+# Precompiled headers
+# -------------------------
+*.gch
+*.pch
+
+# -------------------------
+# Debug files
+# -------------------------
+*.ilk
+*.pdb
 *.dwo
+
+# -------------------------
+# Fortran (just in case)
+# -------------------------
+*.mod
+*.smod
