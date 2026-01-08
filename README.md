@@ -8,7 +8,7 @@ computer graphics, and physically based rendering by implementing everything fro
 
 ---
 
-## 📚 Credit & Attribution
+## Credit & Attribution
 
 This implementation closely follows the structure, algorithms, and ideas presented in:
 
@@ -21,7 +21,7 @@ from the reference implementation are my own.
 
 ---
 
-## ✨ Features Implemented
+## Features Implemented
 
 - Ray–sphere intersection
 - Camera model with perspective projection
@@ -36,7 +36,7 @@ from the reference implementation are my own.
 
 ---
 
-## 🚀 Planned Extensions
+## Planned Extensions
 
 While this project currently mirrors the "In One Weekend" ray tracer, I intend to build on it by adding:
 
@@ -51,7 +51,7 @@ These extensions will go beyond the original tutorial and serve as further learn
 
 ---
 
-## 🛠️ Build Instructions
+## Build Instructions
 
 This project uses **CMake**.
 
